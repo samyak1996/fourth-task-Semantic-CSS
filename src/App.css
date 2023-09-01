@@ -1,0 +1,53 @@
+header {
+  color: aliceblue;
+  height: 20px;
+  background-color: rgb(0, 255, 157);
+  text-align: center;
+  padding: 100px;
+  padding-top: 25px;
+  border: 2px solid blue;
+  border-radius: 5px;
+}
+
+.firstList {
+  padding: 10px;
+}
+
+.secondList {
+  padding: 10px;
+}
+
+aside {
+  float: right;
+  border-style: double;
+}
+aside .sports:hover {
+  text-shadow: 0 0 3px #ff0000, 0 0 5px #0000ff;
+}
+
+footer div {
+  font-family: cursive;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: grey;
+}
+
+footer div:hover {
+  background-color: beige;
+}
